@@ -41,5 +41,6 @@ def add_s (array)
     if index != 1
       word.concat("s")
     end
+  else word
   end
 end
