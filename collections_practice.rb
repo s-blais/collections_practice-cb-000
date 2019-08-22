@@ -38,6 +38,9 @@ end
 
 def add_s (array)
   array.each_with_index.collect do |word, index|
-      word.concat("s") unless index == 1
+    if index != 1
+      word.concat("s")
+    else word
+    end
   end
 end
