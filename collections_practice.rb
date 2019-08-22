@@ -23,8 +23,6 @@ end
 
 def kesha_maker (array)
   array.each do |word|
-    word.chars
-    word[2] = "$"
-    #word.join
+    word.chars.[2] = "$"
   end
 end
